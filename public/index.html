@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="index.js"></script> 
+<link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+    <header style="background-image: url('space.png');" >
+    
+        <h2>SpaceX Launches</h2>
+        <span style="font-size:10px;">&copy:Photo by Alex Andrews from Pexels</span>
+      </header>
+      
+      <section>
+          <div class="filterdata">
+            <h3>Filter</h3>
+            <label for="years">Choose a year</label><br>
+            <select name="year" id="year" >
+              <option value=""></option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+      
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+            <br>
+
+
+            <label for="launch">Sucessfull launch</label><br>
+            
+            <select name="launch" id="launch"  >
+              <option value="">Both</option>
+              <option value="true">true</option>
+              <option value="false">false</option>
+          
+            </select>
+            <br>
+            <label for="landing">Sucessfull landing</label><br>
+            
+            <select name="landing" id="landing">
+              <option value="">Both</option>
+              <option value="true">true</option>
+              <option value="false">false</option>
+          
+            </select>
+            <br><br>
+            <input type="button" value="Submit" id="submit" class="details">
+            
+          </div>
+
+       
+        
+        <div  class="datasection">
+          <div style="background-image: url('space.png');" >
+           
+          <div id="loading" class="loader"></div>
+          
+        </div>
+            <div id ="flights"></div>
+        </div>
+      </section>
+      
+      <footer>
+        <p>Developed By:&copy{Mohammad Dilawar}</p>
+      </footer>
+
+
+
+
+</body>
+</html> 
