@@ -92,6 +92,11 @@
     display: block;
   
   }
+
+  option:hover {
+    background-color: #555555;
+    color: white;
+  }
   
   .datasection {
     float: right;

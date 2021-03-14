@@ -8,7 +8,7 @@ async function fetchdata(api){
     if (response) { 
         hideloader(); 
     } 
-    console.log(response);
+    //console.log(response);
     console.log(data);
  
     let num ='';
